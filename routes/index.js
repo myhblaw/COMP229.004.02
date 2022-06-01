@@ -18,4 +18,9 @@ router.get('/projects', function(req, res, next) {
   res.render('index', { title: 'Projects', userName: 'Julio' });
 });
 
+/* GET Testing page. */
+router.get('/testing', function(req, res, next) {
+  res.render('testing', { title: 'Testing', userName: 'Julio' });
+});
+
 module.exports = router;
